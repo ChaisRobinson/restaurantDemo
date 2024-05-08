@@ -36,3 +36,220 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+}
+
+.navbar-brand a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    background-color: #333;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .navbar-collapse.show {
+    height: auto;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Appetizers.css */
+.appetizer-name {
+  cursor: pointer;
+  color: blue;
+}
+.appetizer-name:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.appetizer-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Salads.css */
+.salad-image {
+  width: 200px;
+  height: 200px;
+}
+
+.salad-name {
+  cursor: pointer;
+  color: blue;
+}
+.salad-name:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Entrees.css */
+.entree-image {
+  width: 200px;
+  height: 200px;
+}
+
+.entree-name {
+  cursor: pointer;
+  color: blue;
+}
+.entree-name:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Desserts.css */
+.dessert-image {
+  width: 200px;
+  height: 200px;
+}
+
+.dessert-name {
+  cursor: pointer;
+  color: blue;
+}
+.dessert-name:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Drinks.css */
+.drink-image {
+  width: 200px;
+  height: 200px;
+}
+
+.drink-name {
+  cursor: pointer;
+  color: blue;
+}
+.drink-name:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Footer.css */
+
+/* General Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Info */
+.footer .col-md-4:first-child p {
+  line-height: 1.5;
+}
+
+/* Hours */
+.footer .col-md-4:nth-child(2) p {
+  margin-bottom: 0.25rem;
+}
+
+/* Social Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+/* Copyright */
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .footer .col-md-4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
