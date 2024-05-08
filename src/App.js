@@ -10,6 +10,9 @@ import Desserts from './components/Desserts';
 import Drinks from './components/Drinks';
 import Footer from './components/Footer';
 
+// Set up static file serving
+app.use(express.static('public'));
+
 function App() {
   return (
     <div className="App">
