@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import restaurantMenu from '../models/restaurantMenu';
 
+
+
 const Appetizers = () => {
   const [selectedAppetizer, setSelectedAppetizer] = useState(null);
 
@@ -21,7 +23,7 @@ const Appetizers = () => {
               <p>Price: ${appetizer.price.toFixed(2)}</p>
               <img
                 className="appetizer-image"
-                src={appetizer.picture}
+                src={appetizer.picture}//require?
                 alt={appetizer.name}
               />
             </div>
